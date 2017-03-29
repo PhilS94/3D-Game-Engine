@@ -19,11 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Engine\CoreEngine\Matrix4.cpp" />
     <ClCompile Include="src\CoreEngine\main.cpp" />
     <ClCompile Include="src\CoreEngine\Quaternion.cpp" />
+    <ClCompile Include="src\Engine\CoreEngine\main.cpp" />
+    <ClCompile Include="src\Engine\CoreEngine\Quaternion.cpp" />
+    <ClCompile Include="src\Engine\CoreEngine\Vec3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Engine\CoreEngine\Matrix4.h" />
     <ClInclude Include="src\CoreEngine\Quaternion.h" />
+    <ClInclude Include="src\Engine\CoreEngine\Quaternion.h" />
+    <ClInclude Include="src\Engine\CoreEngine\Vec3.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6D3FB865-EC66-4F31-B384-47067CD882D6}</ProjectGuid>
