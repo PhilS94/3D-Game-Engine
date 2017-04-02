@@ -24,12 +24,15 @@
     <ClCompile Include="src\Engine\CoreEngine\Matrix4.cpp" />
     <ClCompile Include="src\Engine\CoreEngine\Quaternion.cpp" />
     <ClCompile Include="src\Engine\CoreEngine\Vec3.cpp" />
+    <ClCompile Include="src\Engine\RenderingEngine\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Engine\RenderingEngine\RenderingEngine.h" />
     <ClInclude Include="src\Engine\CoreEngine\Matrix4.h" />
     <ClInclude Include="src\Engine\CoreEngine\Quaternion.h" />
     <ClInclude Include="src\Engine\CoreEngine\Vec3.h" />
+    <ClInclude Include="src\Engine\CoreEngine\Time.h" />
+    <ClInclude Include="src\Engine\RenderingEngine\Window.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6D3FB865-EC66-4F31-B384-47067CD882D6}</ProjectGuid>
